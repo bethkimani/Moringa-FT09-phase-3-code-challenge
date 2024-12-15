@@ -7,8 +7,8 @@ from models.magazine import Magazine
 
 class TestModels(unittest.TestCase):
     def test_author_creation(self):
-        author = Author(1, "Gilbert Kibet")
-        self.assertEqual(author.name, "Gilbert Kibet")
+        author = Author(1, "Beth Kimani")
+        self.assertEqual(author.name, "Beth Kimani")
 
     def test_article_creation(self):
         article = Article(1, "Test Title", "Test Content", 1, 1)
